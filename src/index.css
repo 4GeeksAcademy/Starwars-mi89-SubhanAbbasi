@@ -1,0 +1,45 @@
+body {
+  background-color: #ffffff;
+}
+
+.category-title {
+  color: #dc3545;
+  margin-bottom: 20px;
+}
+
+.horizontal-scroll {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 20px;
+}
+
+.star-card {
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.star-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.details-card {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.details-img {
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.details-info {
+  flex: 1;
+}
+
+.dropdown-menu {
+  min-width: 250px;
+}
